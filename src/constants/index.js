@@ -1,226 +1,153 @@
 export const myProjects = [
   {
-    id: 1,
-    title: "E-commerce Platform",
-    description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
-    subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/accessories.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+  id: 1,
+  title: "SkillSight an AI Resume Analyser",
+  description:
+    "A smart platform that analyzes resumes using AI to generate insights, identify key skills, and compare them with job requirements for better career guidance.",
+  subDescription: [
+    "Developed using React and React Router to create a smooth, responsive frontend experience.",  
+    "Integrated Puter.js for effortless cloud storage, hosting, and file management.",  
+    "Focused on building a clean, user-friendly interface with fast load times and modern design principles.",
+  ],
+  href: "https://skillsight-ai-resume-analyser.vercel.app/",
+  logo: "",
+  image: "/assets/projects/ai-resume-analyser.png",
+  tags: [
+    {
+      id: 1,
+      name: "React.js",
+      path: "/assets/logos/react.svg",
+    },
+    {
+      id: 2,
+      name: "TailwindCSS",
+      path: "/assets/logos/tailwindcss.svg",
+    },
+    {
+      id: 3,
+      name: "ReactRouter",
+      path: "/assets/logos/router.svg",
+    },
+    {
+      id: 4,
+      name: "puter.js",
+      path: "/assets/logos/puter.png",
+    },
+    {
+      id: 5,
+      name: "Vercel",
+      path: "/assets/logos/vercel.jpg",
+    },
+  ],
+},
   {
-    id: 2,
-    title: "Authentication & Authorization System",
-    description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
-    subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/auth-system.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
+  id: 2,
+  title: "Portfolio Website",
+  description:
+    "A visually engaging and interactive personal portfolio showcasing my projects, skills, and journey as a developer.",
+  subDescription: [
+    "Built with React and Vite for a fast, modular, and optimized development experience.",
+    "Used TailwindCSS for modern, responsive styling and a clean aesthetic.",
+    "Integrated Three.js, React Three Fiber, and Drei to add dynamic 3D visuals and animations.",
+    "Enhanced user interaction with smooth motion effects using Framer Motion and modern UI kits like Aceternity UI and Magic UI.",
+    "Added EmailJS for seamless contact form integration and real-time email delivery.",
+  ],
+  href: "",
+  logo: "",
+  image: "/assets/projects/portfolio.png",
+  tags: [
+    { id: 1, 
+      name: "React", 
+      path: "/assets/logos/react.svg" 
+    },
+    { id: 3, 
+      name: "TailwindCSS", 
+      path: "/assets/logos/tailwindcss.svg" 
+    },
+    { id: 4, 
+      name: "Three.js", 
+      path: "/assets/logos/threejs.svg"
+     },
+    { id: 8, 
+      name: "ShadCn",
+       path: "/assets/logos/shadcn.png" 
       },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
+    { id: 10,
+       name: "EmailJS", 
+       path: "/assets/logos/emailjs.png" 
       },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+      { id: 10,
+       name: "Vercel", 
+       path: "/assets/logos/vercel.jpg" 
       },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Blazor Web App",
-    description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
-    subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/blazor-app.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
+  ],
+},
+
+ {
+  id: 3,
+  title: "PrepWise an AI Mock Interview Platform",
+  description:
+    "An AI-powered mock interview web app designed to simulate real interview environments with personalized, real-time feedback.",
+  subDescription: [
+    "Developed using React and Next.js for a dynamic, server-rendered, and highly responsive user experience.",
+    "Styled with Tailwind CSS to achieve a clean, modern, and intuitive interface.",
+    "Integrated Firebase for secure authentication and real-time database management, ensuring smooth user sessions and data handling.",
+    "Integrated with Vapi for AI-driven interview sessions, enabling realistic question generation and evaluation.",
+    "Deployed on Vercel for fast, reliable, and globally distributed hosting.",
+    "Currently in its final development phase — around 95% complete — with final touches and optimizations underway before launch.",
+  ],
+  href: "",
+  logo: "",
+  image: "/assets/projects/ai-interview.png",
+  tags: [
+    { id: 1, 
+      name: "React", 
+      path: "/assets/logos/react.svg" 
+    },
+    { id: 2, 
+      name: "Next.js", 
+      path: "/assets/logos/nextjs-pink.jpg" 
+    },
+    { id: 3,
+      name: "TailwindCSS", 
+      path: "/assets/logos/tailwindcss.svg" 
+    },
+    { id: 4, 
+      name: "Vapi", 
+      path: "/assets/logos/Vapi.svg" 
+    },
+    { id: 5, 
+      name: "Vercel", 
+      path: "/assets/logos/vercel.svg" 
+    },
+  ],
+},
+
+ {
+  id: 4,
+  title: "Hotel Management System",
+  description:
+    "A Java-based desktop application designed to streamline hotel operations, reservations, and customer management.",
+  subDescription: [
+    "Developed using Java for a responsive and efficient desktop interface.",
+    "Integrated MySQL for secure data storage and real-time booking management.",
+    "Implemented modules for room allocation, billing, and staff management ,etc.",
+    "Focused on delivering an intuitive user experience and smooth workflow automation.",
+  ],
+  href: "",
+  logo: "",
+  image: "/assets/projects/hotel-management.png",
+  tags: [
+    { id: 1, 
+      name: "Java", 
+      path: "/assets/logos/java.png" 
+    },
+    { id: 2, 
+      name: "MySQL", 
+      path: "/assets/logos/mysql.png" 
+    },
+  ],
+},
 ];
 
 export const mySocials = [
@@ -231,50 +158,51 @@ export const mySocials = [
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "www.linkedin.com/in/onkar-ghosh-778493395",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "https://www.instagram.com/ghostonkar13?igsh=NnJyd29ocG80czU=",
     icon: "/assets/socials/instagram.svg",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
-    contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-    ],
-  },
-  {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
-    contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
-  },
-  {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
-    contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
-    ],
-  },
+  title: "Foundations of Web Development",
+  job: "Learning & Exploration Phase",
+  date: "2023",
+  contents: [
+    "Began my coding journey by learning the fundamentals of HTML, CSS, and JavaScript to build simple and responsive web pages.",
+    "Created small projects like a personal website and basic calculator to understand how the web works.",
+ "Gained foundational knowledge of Git, GitHub, and version control for organizing and sharing code.",    
+ "Explored basic problem-solving with C,Java and began understanding programming logic and structure.",
+  ],
+},
+{
+  title: "Expanding into Full-Stack Development",
+  job: "Project Building & Skill Development",
+  date: "2024",
+  contents: [
+    "Developed a Java-based Hotel Management System integrated with MySQL for handling bookings, customers, and billing operations.",
+    "Expanded frontend knowledge with React and Tailwind CSS, experimenting with component-driven design and routing.",
+    "Built multiple small-scale web apps to strengthen understanding of APIs, forms, and user interaction.",
+    "Focused on strengthening database concepts, backend logic, and the connection between frontend and backend systems.",
+  ],
+},
+{
+  title: "Next-Gen Web Development",
+  job: "Building Modern Projects & AI Integration",
+  date: "2025–Present",
+  contents: [
+    "Developed an AI Resume Analyzer using React, Tailwind CSS, and Puter.js to evaluate and improve resumes with smart suggestions.",
+    "Currently building an AI Mock Interview Platform using React, Next.js, Firebase, and Vapi — almost complete and ready for deployment.",
+    "Created a 3D interactive portfolio using Three.js, React, Vite, and Framer Motion to showcase my work and technical journey.",
+    "Continuing to explore AI, full-stack development, and cloud technologies while taking on freelance and experimental projects.",
+  ],
+},
+
 ];
 export const reviews = [
   {
